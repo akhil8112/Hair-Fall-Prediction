@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+import seaborn as sns   
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.linear_model import LogisticRegression
@@ -235,4 +235,5 @@ print(f"\nSample Patient Report (ID: {original_idx})")
 print(f"Predicted Risk Score: {risk_score}/100")
 print("Recommendations:")
 for item in recommendations:
+
     print(f"- {item}")
